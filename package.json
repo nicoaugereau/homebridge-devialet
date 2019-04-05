@@ -1,0 +1,40 @@
+{
+  "name": "delta-assistant",
+  "version": "0.1.0",
+  "description": "Alexa Skill for Freebox Delta and Homebridge",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "documentation build plugin.js lib/alexaActions.js lib/alexaLocal.js lib/alexaMessages.js lib/alexaTranslator.js -f md --config docs/documentation.yml > docs/API.md",
+    "document": "./gh-md-toc --insert README.md;./gh-md-toc --insert Troubleshooting.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoaugereau/delta-assistant.git"
+  },
+  "keywords": [
+    "alexa",
+    "homebridge-plugin",
+    "Freebox",
+    "Freebox Delta"
+  ],
+  "engines": {
+    "node": ">=4.4.5",
+    "homebridge": ">=0.4.16"
+  },
+  "devDependencies": {
+    "documentation": "8.1.2"
+  },
+  "dependencies": {
+    "is-my-json-valid": ">=2.19.0",
+    "debug": ">2.6.9",
+    "mqtt": ">=2.18.8",
+    "hap-node-client": ">=0.0.22"
+  },
+  "author": "nicoaugereau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicoaugereau/delta-assistant//issues"
+  },
+  "homepage": "https://github.com/nicoaugereau/delta-assistant#readme"
+}
