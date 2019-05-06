@@ -14,9 +14,10 @@
   },
   "keywords": [
     "alexa",
+    "homebridge",
     "homebridge-plugin",
     "Freebox",
-    "Freebox Delta"
+    "Freebox Devialet"
   ],
   "engines": {
     "node": ">=4.4.5",
