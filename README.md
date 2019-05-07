@@ -1,4 +1,4 @@
-# devialet-homebridge
+# homebridge-devialet
 
 
 
