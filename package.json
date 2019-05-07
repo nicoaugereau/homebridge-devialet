@@ -1,7 +1,7 @@
 {
-  "name": "delta-assistant",
-  "version": "0.1.0",
-  "description": "Alexa Skill for Freebox Delta and Homebridge",
+  "name": "homebridge-devialet",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Freebox Devialet using Alexa Skill",
   "main": "plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicoaugereau/delta-assistant.git"
+    "url": "git+https://github.com/nicoaugereau/homebridge-devialet.git"
   },
   "keywords": [
     "alexa",
@@ -32,10 +32,10 @@
     "mqtt": ">=2.18.8",
     "hap-node-client": ">=0.0.22"
   },
-  "author": "nicoaugereau",
+  "author": "Nicolas Augereau",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nicoaugereau/delta-assistant/issues"
+    "url": "https://github.com/nicoaugereau/homebridge-devialet/issues"
   },
-  "homepage": "https://github.com/nicoaugereau/delta-assistant#readme"
+  "homepage": "https://github.com/nicoaugereau/homebridge-devialet#readme"
 }
