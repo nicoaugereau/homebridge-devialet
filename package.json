@@ -2,15 +2,13 @@
   "name": "homebridge-devialet",
   "version": "1.0.0",
   "description": "Homebridge plugin for Freebox Devialet using Alexa Skill",
+  "author": "Nicolas Augereau",
+  "license": "MIT",
   "main": "plugin.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "api": "documentation build plugin.js lib/alexaActions.js lib/alexaLocal.js lib/alexaMessages.js lib/alexaTranslator.js -f md --config docs/documentation.yml > docs/API.md",
     "document": "./gh-md-toc --insert README.md;./gh-md-toc --insert Troubleshooting.md"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nicoaugereau/homebridge-devialet.git"
   },
   "keywords": [
     "alexa",
@@ -19,6 +17,10 @@
     "Freebox",
     "Freebox Devialet"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoaugereau/homebridge-devialet.git"
+  },
   "engines": {
     "node": ">=4.4.5",
     "homebridge": ">=0.4.16"
@@ -32,8 +34,6 @@
     "mqtt": ">=2.18.8",
     "hap-node-client": ">=0.0.22"
   },
-  "author": "Nicolas Augereau",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nicoaugereau/homebridge-devialet/issues"
   },
